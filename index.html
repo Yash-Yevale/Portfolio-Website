@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3d3e152b47.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <a class="gotopbtn" href="#"> <i class="fa-solid fa-chevron-up"></i> </a>
+    <script>
+        const toTop = document.querySelector(".gotopbtn");
+
+        window.addEventListener("scroll", () => {
+            if (window.pageYOffset > 100) {
+                gotopbtn.classList.add("active");
+            } else {
+                gotopbtn.classList.remove("active");
+            }
+        })
+    </script>
+
+
+
     <div id="preloader"></div>
-    
+
 
     <div id="header">
         <div class="container">
@@ -33,24 +49,30 @@
         </div>
     </div>
 
-<!--------About Us--------->
-<div id="About">
-    <div class="Intro">
-        <div class="row">
-            <div class="about-part-1">
-                
-                <img src="Images/about.jpeg">
-            </div>
-            <div class="about-part-2">
-                <h1 class="title">ABOUT</h1>
-                <p class="My-Info", style="text-align: justify;">My Name is Yash Arun Yevale. I'm 19 years old. I completed Diploma in Computer Science 
-                    from Cusrow Wadia College with 85.89%. Resourceful Computer Engineer with a wide variety of technical experiences. Possess experience 
-                    in building Web Apps and Windows Applications etc. Passionate about Cloud Computing, Database Systems and UI Development. Completed 
-                    Internship at RED HAT.<br> In RED HAT I learned and perform tasks on LINUX operating system and also gained some experience in Cloud 
-                    Computing by using AWS (Amazon Web Services) Platform.</p>
-                   
-                 <a href="#education" class="button-1">EDUCATION</a>
-                 <a href="#skills" class="button-2">MY SKILLS</a>
+    <!--------About Us--------->
+    <div id="About">
+        <div class="Intro">
+            <div class="row">
+                <div class="about-part-1">
+
+                    <img src="Images/about.jpeg">
+                </div>
+                <div class="about-part-2">
+                    <h1 class="title">ABOUT</h1>
+                    <p class="My-Info" , style="text-align: justify;">My Name is Yash Arun Yevale. I'm 19 years old. I
+                        completed Diploma in Computer Science
+                        from Cusrow Wadia College with 85.89%. Resourceful Computer Engineer with a wide variety of
+                        technical experiences. Possess experience
+                        in building Web Apps and Windows Applications etc. Passionate about Cloud Computing, Database
+                        Systems and UI Development. Completed
+                        Internship at RED HAT.<br> In RED HAT I learned and perform tasks on LINUX operating system and
+                        also gained some experience in Cloud
+                        Computing by using AWS (Amazon Web Services) Platform.</p>
+
+                    <a href="#education" class="button-1">EDUCATION</a>
+                    <a href="#skills" class="button-2">MY SKILLS</a>
+
+                </div>
 
             </div>
 
@@ -58,60 +80,58 @@
 
     </div>
 
-</div>
 
+    <!-----------Education------------>
 
-<!-----------Education------------>
+    <div id="education">
+        <h1 class="edu-title">EDUCATION</h1>
+        <div class="timeline">
 
-<div id="education">
-<h1 class="edu-title">MY EDUCATION</h1>
-<div class="timeline">
-    
-    <div class="storage left-container">
-        <img src="Images/Tapti Public School.jpg">
-        <div class="text-box-1">
-            <h2>Tapti Public School</h2>
-            <small>2015 - 2020</small>
-            <p>Passed 10th from SSC with 80.00%</p>
-            <span class="left-container-arrow"></span>
+            <div class="storage left-container">
+                <img src="Images/Tapti Public School.jpg">
+                <div class="text-box-1">
+                    <h2>Tapti Public School</h2>
+                    <small>2015 - 2020</small>
+                    <p>Passed 10th from SSC with 80.00%</p>
+                    <span class="left-container-arrow"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="storage right-container">
+            <div class="text-box-2">
+                <img src="Images/CWIT-logo-1.png">
+                <h2>Cusrow Wadia Institute of Technology</h2>
+                <small>2020 - 2021</small>
+                <p>Passed out First Year with 89.50%</p>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="storage left-container">
+            <div class="text-box-3">
+                <img src="Images/CWIT-logo-1.png">
+                <h2>Cusrow Wadia Institute of Technology</h2>
+                <small>2021 - 2022</small>
+                <p>Passed out Second Year with 90.30%</p>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="storage right-container">
+            <div class="text-box-4">
+                <img src="Images/CWIT-logo-1.png">
+                <h2>Cusrow Wadia Institute of Technology</h2>
+                <small>2022 - 2023</small>
+                <p>Passed out Final Year with 85.89%</p>
+                <span class="right-container-arrow"></span>
+            </div>
         </div>
     </div>
 
-</div>
-
-<div class="storage right-container">
-    <div class="text-box-2">
-        <img src="Images/CWIT-logo-1.png">
-        <h2>Cusrow Wadia Institute of Technology</h2>
-        <small>2020 - 2021</small>
-        <p>Passed out First Year with 89.50%</p>
-        <span class="right-container-arrow"></span>
-    </div>
-</div>
-
-<div class="storage left-container">
-    <div class="text-box-3">
-        <img src="Images/CWIT-logo-1.png">
-        <h2>Cusrow Wadia Institute of Technology</h2>
-        <small>2021 - 2022</small>
-        <p>Passed out Second Year with 90.30%</p>
-        <span class="left-container-arrow"></span>
-    </div>
-</div>
-
-<div class="storage right-container">
-    <div class="text-box-4">
-        <img src="Images/CWIT-logo-1.png">
-        <h2>Cusrow Wadia Institute of Technology</h2>
-        <small>2022 - 2023</small>
-        <p>Passed out Final Year with 85.89%</p>
-        <span class="right-container-arrow"></span>
-    </div>
-</div>
-</div>
-
-<!-----SKILLS--------->
-      <div id="skills">   
+    <!-----SKILLS--------->
+    <div id="skills">
 
         <div class="container-2">
             <h1>MY SKILLS</h1>
@@ -259,120 +279,125 @@
                     </div>
                 </div>
             </div>
-           
+
 
         </div>
-    
-      </div>
-       
-   
-   
-   
- 
-<!-------Services---------->
 
-
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">SERVICES</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-sharp fa-solid fa-code fa-beat"></i>
-                <h2>Web Development</h2>
-                <p style="text-align: justify;">It refers to the creating, building, and maintaining of websites. 
-                    It includes aspects such as Web Design, Web Publishing and Web Programming.</p>
-                <a href="#">Learn more</a>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-database fa-beat"></i>
-                <h2>DB Management</h2>
-                <p style="text-align: justify;">It is a task is any task that protects the organization's data, 
-                    prevents legal and compliance risk, and keeps data-driven applications performing at their best.</p>
-                <a href="#">Learn more</a>
-            </div>
-
-            <div>
-                <i class="fa-brands fa-app-store fa-beat"></i>
-                <h2>Mobile App Design</h2>
-                <p>It is the look and feel of a mobile application. This includes all of the visual elements and interactive elements 
-                    that impact how the app functions. </p>
-                <a href="#">Learn more</a>
-            </div>
-
-        </div>
     </div>
-</div>
 
 
 
-<!------------portfolio------------>
 
 
+    <!-------Services---------->
 
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">MY WORK</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="Images/work-1.png">
-                <div class="layer">
-                    <h3>Portfolio - Website</h3>
-                    <p></p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code fa-beat"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify;">It refers to the creating, building, and maintaining of websites.
+                        It includes aspects such as Web Design, Web Publishing and Web Programming.</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="Images/work-2.png">
-                <div class="layer">
-                    <h3>Weather App</h3>
-                    <p></p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                <div>
+                    <i class="fa-solid fa-database fa-beat"></i>
+                    <h2>DB Management</h2>
+                    <p style="text-align: justify;">It is a task is any task that protects the organization's data,
+                        prevents legal and compliance risk, and keeps data-driven applications performing at their best.
+                    </p>
+                    <a href="https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-what-is-database-management-system">Learn
+                        more</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="Images/work-3.png">
-                <div class="layer">
-                    <h3>------------</h3>
-                    <p></p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                <div>
+                    <i class="fa-brands fa-app-store fa-beat"></i>
+                    <h2>Mobile App Design</h2>
+                    <p>It is the look and feel of a mobile application. This includes all of the visual elements and
+                        interactive elements
+                        that impact how the app functions. </p>
+                    <a href="https://www.invisionapp.com/defined/mobile-app-design">Learn more</a>
                 </div>
-            </div>
-        </div>
-        <a href="#" class="btn">See more</a>
-    </div>
-</div>
-<!-------------Contact------------->
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">CONTACT </h1>
-                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> yashyevale23@gmail.com</p>
-                <p><i class="fa-solid fa-square-phone"></i> 9172508734</p>
-                <div class="social-icons">
-                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <a href="" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
+
             </div>
         </div>
     </div>
-    <div class="copyright">
-        <p>Copyright <i class="fa-regular fa-copyright"></i> Made by Yash Arun Yevale</p>
+
+
+
+    <!------------portfolio------------>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY WORK</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Portfolio - Website</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.png">
+                    <div class="layer">
+                        <h3>------------</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Yash-Yevale?tab=repositories" class="btn">See more</a>
+        </div>
     </div>
-</div>
+    <!-------------Contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">CONTACT </h1>
+                    <p><i class="fa-solid fa-envelope"></i> yashyevale23@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-9172508734</p>
+                    <div class="social-icons">
+                        <a href="https://www.hackerrank.com/yashyevale23"><i class="fa-brands fa-hackerrank"></i></a>
+                        <a href="https://github.com/Yash-Yevale"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/yashyevale?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yash-yevale-3a0a07243"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Developed by Yash Arun Yevale</p>
+        </div>
+    </div>
 
 
 
@@ -380,11 +405,11 @@
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
+        function opentab(tabname) {
+            for (tablink of tablinks) {
                 tablink.classList.remove("active-link");
             }
-            for(tabcontent of tabcontents){
+            for (tabcontent of tabcontents) {
                 tabcontent.classList.remove("active-tab");
             }
             event.currentTarget.classList.add("active-link");
@@ -397,41 +422,42 @@
 
         var sidemenu = document.getElementById("sidemenu");
 
-        function openmenu(){
+        function openmenu() {
             sidemenu.style.right = "0";
         }
-        function closemenu(){
+        function closemenu() {
             sidemenu.style.right = "-200px";
         }
     </script>
 
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5CDh1wIdCWVWc-MkSTK-Cbg7y8wpuSsLgmR99-Z5C208YXpnEFRCBuY_LUlwv9VB5w/exec'
-    const form = document.forms['submit-to-google-sheet']
-    const msg = document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message Sent Successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzp5CDh1wIdCWVWc-MkSTK-Cbg7y8wpuSsLgmR99-Z5C208YXpnEFRCBuY_LUlwv9VB5w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
+    </script>
 
-<script>
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
 
-</script>
+    </script>
 
-    
+
 </body>
+
 </html>
