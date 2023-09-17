@@ -839,7 +839,7 @@ nav .fas {
     .header-text {
         padding: 0.625rem 0.1875rem;
         background: rgba(0, 0, 0, 0.6);
-        margin-top: 200%;
+        margin-top: 29.5rem;
         font-size: 1.25rem;
     }
 
@@ -882,23 +882,23 @@ nav .fas {
     }
 
     .about-part-1 {
-        flex-basis: 7.8125rem;
-        margin-right: 50%;
+        flex-basis: 24rem;
     }
 
     .about-part-1 img {
-        height: 16.25rem;
-        width: 26.25rem;
-        padding-right: 7.5rem;
+        height: 18.25rem;
+        width: 30.25rem;
+        padding-right: -1.5rem;
     }
 
     .about-part-2 {
         margin-top: 45%;
-        flex-basis: 50%;
+        flex-basis: 85%;
         margin-bottom: 3%;
     }
 
     .title {
+        text-align: center;
         margin-top: -40%;
         margin-left: 22%;
         font-size: 2.8125rem;
@@ -917,13 +917,15 @@ nav .fas {
     }
 
     .button-1 {
+        text-align: center;
         margin-left: 1.5rem;
     }
 
     .button-2 {
+        text-align: center;
         margin-top: auto;
-        margin-left: 2.4375rem;
-        padding: 10% 15%;
+        margin-left: 4.4375rem;
+        padding: 6% 4%;
         height: 3.9375rem;
         width: 9.375rem;
     }
